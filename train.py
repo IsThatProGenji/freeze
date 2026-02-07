@@ -61,32 +61,34 @@ test_df = pd.read_csv('i239e_project_test.csv')
 drop_cols_train = ['Name', 'Feature#9', 'Feature#7', 'Feature#1', 'Survived']
 drop_cols_test = ['Name', 'Feature#9', 'Feature#7', 'Feature#1']
 X_train_raw = train_df.drop(columns=drop_cols_train)
-y = train_df['Survived'].values
+y_train = train_df['Survived'].values
 X_test_raw = test_df.drop(columns=drop_cols_test)
 
 # Impute missing values (fit on train, transform both)
 imputer = SimpleImputer(strategy='median')
 X_train_imp = pd.DataFrame(imputer.fit_transform(X_train_raw), columns=X_train_raw.columns)
-X_test_imp = pd.DataFrame(imputer.transform(X_test_raw), columns=X_test_raw.columns)
+X_test_imp = pd.DataFrame(imputer.transform(X_test_raw), columns=X_test_raw.columns) # Use transform here to apply same imputation as train
 
 # Feature selection — top 5 by Mutual Information (fit on train)
 selector = SelectKBest(score_func=mutual_info_classif, k=5)
-X_train_sel = selector.fit_transform(X_train_imp, y)
-X_test_sel = selector.transform(X_test_imp)
+X_train_sel = selector.fit_transform(X_train_imp, y_train)
+X_test_sel = selector.transform(X_test_imp) # Use transform here to apply same selection as train
 selected_features = X_train_raw.columns[selector.get_support()].tolist()
+selected_features_test = X_test_raw.columns[selector.get_support()].tolist()
 print(f"Selected 5 features: {selected_features}")
+print(f"Selected 5 features (test): {selected_features_test}")
 
 # Standard scaling (fit on train, transform both)
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train_sel)
-X_test_scaled = scaler.transform(X_test_sel)
+X_test_scaled = scaler.transform(X_test_sel) # Use transform here to apply same scaling as train
 
 print(f"Train shape: {X_train_scaled.shape}")
 print(f"Test shape:  {X_test_scaled.shape}")
 
 # Train / Validation split (80/20, stratified)
 X_train_split, X_val, y_train_split, y_val = train_test_split(
-    X_train_scaled, y, test_size=0.2, random_state=42, stratify=y
+    X_train_scaled, y_train, test_size=0.2, random_state=42, stratify=y_train
 )
 
 # Convert to PyTorch tensors
@@ -99,7 +101,6 @@ X_test_tensor = torch.FloatTensor(X_test_scaled)
 # DataLoader for mini-batch training
 train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-
 
 # --- 4. Load Frozen Pretrained Network ---
 frozen_net = torch.load('pretrained_network.pth', map_location='cpu', weights_only=False)
@@ -164,4 +165,3 @@ output['Survived'] = test_pred
 output.to_csv('test_predictions.csv', index=False)
 print(f"\nTest predictions saved to test_predictions.csv ({len(test_pred)} samples)")
 print(f"Predicted survival rate: {test_pred.mean():.2%}")
-
