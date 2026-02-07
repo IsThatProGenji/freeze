@@ -1,0 +1,44 @@
+Selected 5 features: ['Feature#5', 'Feature#2', 'Feature#8', 'Feature#3', 'Feature#6']
+Selected 5 features (test): ['Feature#5', 'Feature#2', 'Feature#8', 'Feature#3', 'Feature#6']
+Train shape: (741, 5)
+Test shape:  (150, 5)
+
+Loaded frozen network:
+PretrainedNetwork(
+  (fc1): Linear(in_features=5, out_features=10, bias=True)
+  (fc2): Linear(in_features=10, out_features=3, bias=True)
+  (relu): ReLU()
+)
+
+Trainable parameters: 929
+Frozen parameters:    93
+
+--- Training for up to 200 epochs (early stopping patience=20) ---
+  Epoch [ 10/200]  Train Loss: 0.6230  Val Loss: 0.5929  LR: 0.001000
+  Epoch [ 20/200]  Train Loss: 0.6021  Val Loss: 0.5695  LR: 0.001000
+  Epoch [ 30/200]  Train Loss: 0.5699  Val Loss: 0.5585  LR: 0.001000
+  Epoch [ 40/200]  Train Loss: 0.5839  Val Loss: 0.5522  LR: 0.001000
+  Epoch [ 50/200]  Train Loss: 0.5457  Val Loss: 0.5506  LR: 0.001000
+  Epoch [ 60/200]  Train Loss: 0.5786  Val Loss: 0.5509  LR: 0.001000
+  Epoch [ 70/200]  Train Loss: 0.5652  Val Loss: 0.5513  LR: 0.000500
+  Early stopping at epoch 71 (no improvement for 20 epochs)
+  Restored best model (val_loss=0.5453)
+
+--- Optimal threshold: 0.36 (F1=0.7669) ---
+
+--- Validation Results ---
+Accuracy: 0.7919
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Not Survived       0.92      0.73      0.81        92
+    Survived       0.67      0.89      0.77        57
+
+    accuracy                           0.79       149
+   macro avg       0.79      0.81      0.79       149
+weighted avg       0.82      0.79      0.79       149
+
+
+Test predictions saved to test_predictions.csv (150 samples)
+Predicted survival rate: 55.33%

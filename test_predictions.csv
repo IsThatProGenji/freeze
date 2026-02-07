@@ -1,57 +1,57 @@
 Feature#1,Name,Survived
 765,"Eklund, Mr. Hans Linus",0
 83,"McDermott, Miss. Brigdet Delia",1
-486,"Lefebre, Miss. Jeannie",0
-638,"Collyer, Mr. Harvey",0
+486,"Lefebre, Miss. Jeannie",1
+638,"Collyer, Mr. Harvey",1
 561,"Morrow, Mr. Thomas Rowan",0
 542,"Andersson, Miss. Ingeborg Constanzia",0
 323,"Slayter, Miss. Hilda Mary",1
-448,"Seward, Mr. Frederic Kimber",0
+448,"Seward, Mr. Frederic Kimber",1
 147,"Andersson, Mr. August Edvard (""Wennerstrom"")",0
-746,"Crosby, Capt. Edward Gifford",0
+746,"Crosby, Capt. Edward Gifford",1
 5,"Allen, Mr. William Henry",0
-727,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",0
+727,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",1
 503,"O'Sullivan, Miss. Bridget Mary",1
-28,"Fortune, Mr. Charles Alexander",1
+28,"Fortune, Mr. Charles Alexander",0
 715,"Greenberg, Mr. Samuel",0
 325,"Sage, Mr. George John Jr",0
-418,"Silven, Miss. Lyyli Karoliina",0
-827,"Lam, Mr. Len",0
+418,"Silven, Miss. Lyyli Karoliina",1
+827,"Lam, Mr. Len",1
 854,"Lines, Miss. Mary Conover",1
 199,"Madigan, Miss. Margaret ""Maggie""",1
-881,"Shelley, Mrs. William (Imanita Parrish Hall)",0
-560,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",0
+881,"Shelley, Mrs. William (Imanita Parrish Hall)",1
+560,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",1
 92,"Andreasson, Mr. Paul Edvin",0
-187,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",0
-550,"Davies, Master. John Morgan Jr",0
-217,"Honkanen, Miss. Eliina",0
-803,"Carter, Master. William Thornton II",0
+187,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",1
+550,"Davies, Master. John Morgan Jr",1
+217,"Honkanen, Miss. Eliina",1
+803,"Carter, Master. William Thornton II",1
 163,"Bengtsson, Mr. John Viktor",0
-537,"Butt, Major. Archibald Willingham",0
+537,"Butt, Major. Archibald Willingham",1
 729,"Bryhl, Mr. Kurt Arnold Gottfrid",0
 604,"Torber, Mr. Ernst William",0
-212,"Cameron, Miss. Clear Annie",0
+212,"Cameron, Miss. Clear Annie",1
 88,"Slocovski, Mr. Selman Francis",0
 398,"McKane, Mr. Peter David",0
-253,"Stead, Mr. William Thomas",0
+253,"Stead, Mr. William Thomas",1
 301,"Kelly, Miss. Anna Katherine ""Annie Kate""",1
-691,"Dick, Mr. Albert Adrian",0
+691,"Dick, Mr. Albert Adrian",1
 144,"Burke, Mr. Jeremiah",0
 139,"Osen, Mr. Olaf Elon",0
-143,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",0
+143,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",1
 887,"Montvila, Rev. Juozas",0
 245,"Attalah, Mr. Sleiman",0
 776,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",0
-242,"Murphy, Miss. Katherine ""Kate""",0
-107,"Salkjelsvik, Miss. Anna Kristine",0
+242,"Murphy, Miss. Katherine ""Kate""",1
+107,"Salkjelsvik, Miss. Anna Kristine",1
 40,"Nicola-Yarred, Miss. Jamila",1
 757,"Carlsson, Mr. August Sigfrid",0
 704,"Gallagher, Mr. Martin",0
 18,"Williams, Mr. Charles Eugene",0
 774,"Elias, Mr. Dibo",0
-473,"West, Mrs. Edwy Arthur (Ada Mary Worth)",0
+473,"West, Mrs. Edwy Arthur (Ada Mary Worth)",1
 731,"Allen, Miss. Elisabeth Walton",1
-24,"Sloper, Mr. William Thompson",0
+24,"Sloper, Mr. William Thompson",1
 594,"Bourke, Miss. Mary",1
 342,"Fortune, Miss. Alice Elizabeth",1
 502,"Canavan, Miss. Mary",1
@@ -60,92 +60,92 @@ Feature#1,Name,Survived
 412,"Hart, Mr. Henry",0
 116,"Pekoniemi, Mr. Edvard",0
 677,"Sawyer, Mr. Frederick Charles",0
-608,"Daniel, Mr. Robert Williams",0
+608,"Daniel, Mr. Robert Williams",1
 460,"O'Connor, Mr. Maurice",0
 861,"Hansen, Mr. Claus Peter",0
 750,"Connaghton, Mr. Michael",0
 443,"Petterson, Mr. Johan Emil",0
-485,"Bishop, Mr. Dickinson H",0
+485,"Bishop, Mr. Dickinson H",1
 635,"Skoog, Miss. Mabel",0
-565,"Meanwell, Miss. (Marion Ogden)",0
+565,"Meanwell, Miss. (Marion Ogden)",1
 879,"Laleff, Mr. Kristo",0
 453,"Foreman, Mr. Benjamin Laventall",1
 390,"Lehmann, Miss. Bertha",1
-554,"Leeni, Mr. Fahim (""Philip Zenni"")",1
-490,"Coutts, Master. Eden Leslie ""Neville""",0
+554,"Leeni, Mr. Fahim (""Philip Zenni"")",0
+490,"Coutts, Master. Eden Leslie ""Neville""",1
 298,"Allison, Miss. Helen Loraine",1
-572,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",0
+572,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",1
 181,"Sage, Miss. Constance Gladys",0
 76,"Moen, Mr. Sigurd Hansen",0
-388,"Buss, Miss. Kate",0
+388,"Buss, Miss. Kate",1
 423,"Zimmerman, Mr. Leo",0
-161,"Cribb, Mr. John Hatfield",0
+161,"Cribb, Mr. John Hatfield",1
 100,"Kantor, Mr. Sinai",0
-63,"Harris, Mr. Henry Birkhardt",0
+63,"Harris, Mr. Henry Birkhardt",1
 296,"Lewy, Mr. Ervin G",1
 334,"Vander Planke, Mr. Leo Edmondus",0
-880,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",0
-699,"Thayer, Mr. John Borland",0
+880,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",1
+699,"Thayer, Mr. John Borland",1
 474,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",1
-556,"Wright, Mr. George",0
-337,"Pears, Mr. Thomas Clinton",0
+556,"Wright, Mr. George",1
+337,"Pears, Mr. Thomas Clinton",1
 753,"Vande Velde, Mr. Johannes Joseph",0
 791,"Keane, Mr. Andrew ""Andy""",0
 355,"Yousif, Mr. Wazli",0
 842,"Mudd, Mr. Thomas Charles",0
 456,"Jalsevac, Mr. Ivan",0
-818,"Mallet, Mr. Albert",0
+818,"Mallet, Mr. Albert",1
 615,"Brocklebank, Mr. William Alfred",0
 89,"Fortune, Miss. Mabel Helen",1
-297,"Hanna, Mr. Mansour",1
+297,"Hanna, Mr. Mansour",0
 645,"Baclini, Miss. Eugenie",1
 158,"Corn, Mr. Harry",0
 884,"Banfield, Mr. Frederick James",0
 531,"Quick, Miss. Phyllis May",1
-41,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",0
+41,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",1
 640,"Thorneycroft, Mr. Percival",0
-870,"Johnson, Master. Harold Theodor",0
-85,"Ilett, Miss. Bertha",0
-352,"Williams-Lambert, Mr. Fletcher Fellows",0
-200,"Yrois, Miss. Henriette (""Mrs Harbeck"")",0
+870,"Johnson, Master. Harold Theodor",1
+85,"Ilett, Miss. Bertha",1
+352,"Williams-Lambert, Mr. Fletcher Fellows",1
+200,"Yrois, Miss. Henriette (""Mrs Harbeck"")",1
 434,"Kallio, Mr. Nikolai Erland",0
 387,"Goodwin, Master. Sidney Leonard",0
-686,"Laroche, Mr. Joseph Philippe Lemercier",0
-800,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",0
-56,"Woolner, Mr. Hugh",0
+686,"Laroche, Mr. Joseph Philippe Lemercier",1
+800,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",1
+56,"Woolner, Mr. Hugh",1
 680,"Cardeza, Mr. Thomas Drake Martinez",1
-732,"Hassan, Mr. Houssein G N",1
+732,"Hassan, Mr. Houssein G N",0
 744,"McNamee, Mr. Neal",0
 805,"Hedman, Mr. Oskar Arvid",0
-579,"Caram, Mrs. Joseph (Maria Elias)",0
-597,"Leitch, Miss. Jessie Wills",0
-138,"Futrelle, Mr. Jacques Heath",0
+579,"Caram, Mrs. Joseph (Maria Elias)",1
+597,"Leitch, Miss. Jessie Wills",1
+138,"Futrelle, Mr. Jacques Heath",1
 350,"Dimic, Mr. Jovan",0
-702,"Silverthorne, Mr. Spencer Victor",0
-280,"Abbott, Mrs. Stanton (Rosa Hunt)",0
+702,"Silverthorne, Mr. Spencer Victor",1
+280,"Abbott, Mrs. Stanton (Rosa Hunt)",1
 567,"Stoytcheff, Mr. Ilia",0
 376,"Meyer, Mrs. Edgar Joseph (Leila Saks)",1
-93,"Chaffee, Mr. Herbert Fuller",0
+93,"Chaffee, Mr. Herbert Fuller",1
 39,"Vander Planke, Miss. Augusta Maria",1
 869,"van Melkebeke, Mr. Philemon",0
-577,"Garside, Miss. Ethel",0
-166,"Goldsmith, Master. Frank John William ""Frankie""",0
+577,"Garside, Miss. Ethel",1
+166,"Goldsmith, Master. Frank John William ""Frankie""",1
 127,"McMahon, Mr. Martin",0
-713,"Taylor, Mr. Elmer Zebley",0
+713,"Taylor, Mr. Elmer Zebley",1
 411,"Sdycoff, Mr. Todor",0
-588,"Frolicher-Stehli, Mr. Maxmillian",0
+588,"Frolicher-Stehli, Mr. Maxmillian",1
 825,"Panula, Master. Urho Abraham",0
 442,"Hampe, Mr. Leon",0
-516,"Walker, Mr. William Anderson",0
+516,"Walker, Mr. William Anderson",1
 571,"Harris, Mr. George",0
-276,"Andrews, Miss. Kornelia Theodosia",0
+276,"Andrews, Miss. Kornelia Theodosia",1
 370,"Aubart, Mme. Leontine Pauline",1
-459,"Toomey, Miss. Ellen",0
-496,"Yousseff, Mr. Gerious",1
-246,"Minahan, Dr. William Edward",0
+459,"Toomey, Miss. Ellen",1
+496,"Yousseff, Mr. Gerious",0
+246,"Minahan, Dr. William Edward",1
 512,"Webber, Mr. James",0
-824,"Moor, Mrs. (Beila)",0
+824,"Moor, Mrs. (Beila)",1
 777,"Tobin, Mr. Roger",0
 429,"Flynn, Mr. James",0
-154,"van Billiard, Mr. Austin Blyler",0
+154,"van Billiard, Mr. Austin Blyler",1
 402,"Adams, Mr. John",0
